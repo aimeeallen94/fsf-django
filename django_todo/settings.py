@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
     #    'NAME': BASE_DIR / 'db.sqlite3',
 #    }
 #}
-
+# database url added
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
