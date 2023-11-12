@@ -11,6 +11,7 @@
         {% for item in items %}
         <tr>
             {% if item.done %}
+            <!-- striking through items that are marked as done on to do list -->
                 <td><strike>{{ item.name }}</strike></td>
             {% else %}
                 <td>{{ item.name }}</td>
